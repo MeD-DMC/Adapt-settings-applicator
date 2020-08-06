@@ -1,0 +1,114 @@
+=======================================
+things to remove:
+=======================================
+/config.json
+=======================================
+{
+"build":{ 
+"includes": [
+      "adapt-close",
+      "adapt-contrib-languagePicker",
+      "adapt-devtools",
+      "adapt-pagesInNavBar"
+	]
+   }
+}
+
+
+=====================================
+/en/course.json
+=====================================
+
+
+"_extensions":
+{	
+      "_close": {
+        "closeButton": "Select here to close the window."
+      },
+      "_languagePicker": {
+        "navigationBarLabel": "Select course language",
+        "languageSelector": "Language selector"
+      }
+}
+
+  "_close": {
+    "_isEnabled": true,
+    "_button": {
+      "_closeViaLMSFinish": false,
+      "_isEnabled": true,
+      "_notifyPromptIfIncomplete": {
+        "_isEnabled": false,
+        "title": "Confirm close",
+        "body": "Are you sure you want to close the window?",
+        "confirm": "Close window",
+        "cancel": "Cancel"
+      },
+      "_notifyPromptIfComplete": {
+        "_isEnabled": false,
+        "title": "Confirm close",
+        "body": "Are you sure you want to close the window?",
+        "confirm": "Close window",
+        "cancel": "Cancel"
+      }
+    },
+    "browserPromptIfIncomplete": "",
+    "browserPromptIfComplete": ""
+  },
+  "_pagesInNavBar": {
+    "_isEnabled": true
+  }
+
+
+================================================
+Things to patch
+================================================
+/en/course.json
+================================================
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true,
+    "_isCompletionIndicatorEnabled": false,
+    "_isShownInNavigationBar": false
+  },
+  "_resources": {
+    "_isEnabled": true
+  },
+  "_glossary": {
+    "_isEnabled": true
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_showPrompt": true
+  }, 
+  "_pageIncompletePrompt": {
+    "_isEnabled": true
+  },
+  "_homeButton": {
+    "_isEnabled": true
+  },
+=================================================
+/config.json
+=================================================
+{
+  "_defaultLanguage": "en", or "fr",
+  "_accessibility": {
+    "_isEnabled": true,
+    "_isTextProcessorEnabled": true,
+    "_isSkipNavigationEnabled": true,
+  },
+  "_scrollingContainer": {
+    "_isEnabled": true,
+  },
+  "_spoor": {
+    "_reporting": {
+      "_onAssessmentFailure": "completed"
+    }
+  },
+  "_homeButton": {
+    "_isEnabled": true
+  },
+  "_completionCriteria": {
+    "_requireContentCompleted": True,
+    "_requireAssessmentCompleted": false
+  },
+},
