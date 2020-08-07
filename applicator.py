@@ -6,8 +6,8 @@ import json
 
 valuesToRemove = ['adapt-contrib-languagePicker', 'adapt-pagesInNavBar', 'adapt-close', 'adapt-devtools']
 keysToRemove = ['_close', '_pagesInNavBar','_languagePicker']
-dirName = '/Users/allanyong/applicator/'
-
+dirName = os.getcwd()
+print(dirName)
 def getListOfFiles(dirName):
     # create a list of file and sub directories
     # names in the given directory
@@ -143,9 +143,10 @@ def main():
                 ############################################
                 # Patching the zip files #
                 new_zip = update_or_insert(elem)
+                print(elem)
                 #Generate new Zips#
                 try:
-                    with open('Patched - ' + elem.replace(dirName,''), 'wb') as f:
+                    with open('Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
                         f.write(new_zip.getbuffer())
                         new_zip.close()
                 except FileNotFoundError as e:
