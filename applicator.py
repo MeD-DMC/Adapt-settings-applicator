@@ -89,6 +89,9 @@ def updateCourseJson(course):
 
  ######################## Update the zip file ###################################
 def update_or_insert(path):
+    configJSON = None
+    courseJSON = None
+    courseLan = None
     """
     Param: path -> file in archive
     Param: data -> data to be updated
@@ -121,9 +124,7 @@ def update_or_insert(path):
     return new_zip
 def main():
     numOfZip = 0
-    configJSON = None
-    courseJSON = None
-    courseLan = None
+
     
     
     # Get the list of all files in directory tree at given path
