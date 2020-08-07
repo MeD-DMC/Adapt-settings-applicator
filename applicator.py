@@ -6,6 +6,7 @@ import json
 
 valuesToRemove = ['adapt-contrib-languagePicker', 'adapt-pagesInNavBar', 'adapt-close', 'adapt-devtools']
 keysToRemove = ['_close', '_pagesInNavBar','_languagePicker']
+dirName = '/Users/allanyong/applicator/'
 
 def getListOfFiles(dirName):
     # create a list of file and sub directories
@@ -23,7 +24,6 @@ def getListOfFiles(dirName):
             allFiles.append(fullPath)
 
     return allFiles
-
 def updateConfigJson(config, language):
     data = json.loads(config)
     ####################################################################################
@@ -124,7 +124,7 @@ def main():
     configJSON = None
     courseJSON = None
     courseLan = None
-    dirName = '/Users/allanyong/applicator/'
+    
     new_zip = BytesIO()
     # Get the list of all files in directory tree at given path
     listOfFiles = getListOfFiles(dirName)
