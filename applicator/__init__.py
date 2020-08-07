@@ -124,9 +124,6 @@ def update_or_insert(path):
     return new_zip
 def main():
     numOfZip = 0
-
-    
-    
     # Get the list of all files in directory tree at given path
     listOfFiles = getListOfFiles(dirName)
     # Print the files
