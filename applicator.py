@@ -125,7 +125,7 @@ def main():
     courseJSON = None
     courseLan = None
     
-    new_zip = BytesIO()
+    
     # Get the list of all files in directory tree at given path
     listOfFiles = getListOfFiles(dirName)
     # Print the files
@@ -146,10 +146,13 @@ def main():
                 print(elem)
                 #Generate new Zips#
                 try:
+                    #for mac 
                     with open('Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
+                    #for windows
+                    #with open('Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
                         f.write(new_zip.getbuffer())
                         new_zip.close()
-                except FileNotFoundError as e:
+                except OSError as e:
                     print(e)
                 
 
