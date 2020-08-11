@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>Launcher</title>
+</head>
+
+<body>
+  <script>
+    function disablelink(link) {
+      // disable subsequent clicks
+      document.getElementById("launchlink").style.display = "none";
+      document.getElementById("launchstatus").innerHTML = "Ce cours à déjà ouvert dans une nouvelle fenêtre. <br> This course was already opened in a new window.";
+      link.onclick = function (event) {
+        event.preventDefault();
+      }
+    }   
+  </script>
+  <div id="dialoguebox" style="text-align:center; margin-top:25%; font-size:26px;">
+    <span style="color:gray;">
+      Ne fermez pas cette fenêtre. Si vous la fermez, vous terminerez votre session.<br> Do not close this window. If
+      you close it you will end your session.
+    </span><br><br>
+    <a onclick="disablelink(this);" id="launchlink" href="index_lms.html" target="_adaptlearning">
+      Lancer la formation (ouvre une nouvelle fenêtre) <br> Launch Training (open new tab)
+    </a>
+    <p id="launchstatus"></p>
+  </div>
+</body>
+
+</html>
+<html>
+
+<head>
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+  <meta name="Robots" content="NOINDEX " />
+</head>
+
+<body></body>
+<script type="text/javascript">
+  var gearPage = document.getElementById('GearPage');
+  if (null != gearPage) {
+    gearPage.parentNode.removeChild(gearPage);
+    document.title = "Error";
+  }
+</script>
+
+</html>

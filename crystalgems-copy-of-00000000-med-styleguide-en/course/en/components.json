@@ -1,0 +1,2619 @@
+[
+  {
+    "_component": "mcq",
+    "_classes": "med-questionnaire",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Question 1",
+    "displayTitle": "",
+    "body": "<p>Does the following applicant meet the basic eligibility requirements for the CPP retirement pension?</p><p>Ernie has been self-employed making widgets since 1980. Ernie has contributed the maximum CPP contributions each year he owned the business Ernie has recently sold this business and has issued a letter to Service Canada requesting a CPP retirement pension. Ernie was born in 1955.</p>",
+    "_id": "5f29801a935326061910ea5b",
+    "_parentId": "5f29801a935326061910ea38",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Select an answer and click the Submit button to submit your answer",
+    "_items": [
+      {
+        "text": "Yes",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "No",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "Feedback",
+      "correct": "<p><span class=\"right\">✔</span>&nbsp;That’s correct</p><p>Ernie is eligible due to making contributions from self-employed earnings, making an application in writing, and being over 60 years of age.</p>",
+      "_incorrect": {
+        "final": "<p><span class=\"wrong\">✖</span>&nbsp;Try Again</p><p>Ernie is eligible due to making contributions from self-employed earnings, making an application in writing, and being over 60 years of age.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "submit"
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "med-questionnaire",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Question 2",
+    "displayTitle": "",
+    "body": "<p>David is receiving CPP Disability benefits and he requested the CRP while on the phone with an agent a month ago. He stopped working until his son was 8 years old, and he was the recipient of the CCTB.</p><p>Are any of these CRP eligibility criteria <strong>missing</strong> in this scenario?</p>",
+    "_id": "5f29801a935326061910ea5c",
+    "_parentId": "5f29801a935326061910ea39",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Applied for CPP benefits",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "CRP requested in writing",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Received FA or eligible for CCTB",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Was the primary caregiver of a child 0-7 years of age",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "None missing",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "Feeback",
+      "correct": "<div class=\"col-md-12\"><div class=\"col-md-12\"><span class=\"right\">✔</span><span><strong> That’s correct</strong></span><p><span>Eligibility criteria, CRP requested in writing, is missing. CRP cannot be requested over the phone.</span></p></div></div>",
+      "_incorrect": {
+        "final": "<p><span class=\"wrong\">✖</span><span><strong> Try Again </strong> </span></p><p><span>Eligibility criteria, CRP requested in writing, is missing. CRP cannot be requested over the phone.</span></p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "submit"
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "openTextInput",
+    "_classes": "med-questionnaire",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Question 3",
+    "displayTitle": "",
+    "body": "<p>Can David receive all 33 weeks of extended parental benefits that he requested?</p><p>Explain your reasoning. What is the applicable BP extension required on this claim?</p>",
+    "_id": "5f29801a935326061910ea5d",
+    "_parentId": "5f29801a935326061910ea3a",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Type your answer in the box below. Once you are done, select Compare to check your answer.",
+    "_isResetOnRevisit": true,
+    "_canShowModelAnswer": true,
+    "_canShowMarking": false,
+    "placeholder": "Enter your answer here",
+    "_allowedCharacters": 1000,
+    "remainingCharactersText": "characters remaining",
+    "_recordInteraction": false,
+    "modelAnswer": "<p>Feedback</p><p>Yes, David can receive all of the 33 weeks of extended parental benefits that he requested. He has already received 10 weeks of CCB and then returned to work for 18 weeks so 28 weeks have been paid or deemed paid on the claim. This leaves 22 weeks that can be paid before the false 50-week maximum is reached.You must then determine how many weeks remain before the real maximum is reached.</p><p>22 weeks of extended parental benefits = 13 weeks of standard parental benefits. 10 weeks CCB +18 weeks work + 13 weeks standard parental at 55% = 41 total weeks. Therefore, 9 weeks can still be paid at 55% before the real maximum is reached.</p><p>According to Table 2, David could receive 15 weeks of extended parental benefits. He has already received 22 weeks and wants to receive only 11 more for a total of 33 weeks. You can extend the BP by 15 weeks to allow him to receive the entitlement he has requested.</p>",
+    "savedMessage": "Changes saved",
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Compare",
+        "ariaLabel": "Submit"
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show model answer",
+        "ariaLabel": "Show model answer"
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Hide model answer",
+        "ariaLabel": "Hide model answer"
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": "Reset"
+      }
+    }
+  },
+  {
+    "_component": "matching",
+    "_classes": "med-questionnaire",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Question 4",
+    "displayTitle": "",
+    "body": "<p>Identify the effective date for the following applicant:</p><p>Joe is 60 years old on February 12, 2023. Application was submitted in June 2022. Joe requests benefits as early as possible.</p>",
+    "_id": "5f29801a935326061910ea5e",
+    "_parentId": "5f29801a935326061910ea3b",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldResetAllAnswers": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_recordInteraction": true,
+    "placeholder": "Month",
+    "_items": [
+      {
+        "text": "Select a month",
+        "_options": [
+          {
+            "text": "January 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "February 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "March 2023",
+            "_isCorrect": true
+          },
+          {
+            "text": "April 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "May 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "June 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "July 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "August 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "September 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "October 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "November 2023",
+            "_isCorrect": false
+          },
+          {
+            "text": "December 2023",
+            "_isCorrect": false
+          }
+        ]
+      }
+    ],
+    "_feedback": {
+      "title": "Feedback",
+      "correct": "<p><span>✔</span>That’s correct</p><p>Joe applies at 59 years of age to start benefits when Joe turns 60. The first month of eligibility to receive benefits is the month after the 60th birthday which is <strong>March 2023</strong>.</p>",
+      "_incorrect": {
+        "final": "<p><span>✖</span>That’s incorrect.</p><p>Joe applies at 59 years of age to start benefits when Joe turns 60. The first month of eligibility to receive benefits is the month after the 60th birthday which is <strong>March 2023</strong>.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "med-questionnaire",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Question 5",
+    "displayTitle": "",
+    "body": "<p>Ming is applying to receive a CPP Disability benefit. She stopped working to raise her children but did <strong>not</strong> request the CRP. She thought it wouldn’t affect her benefit and she doesn’t like completing forms.</p><p>Based on the CRP information you read, how might the CRP affect Ming’s CPP benefit?</p>",
+    "_id": "5f29801a935326061910ea5f",
+    "_parentId": "5f29801a935326061910ea3c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Select all appropriate.",
+    "_items": [
+      {
+        "text": "CRP may help CPP benefit eligibilty requirements",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "CRP may reduce CPP benefit amounts",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "CRP may increase CPP benefit amounts",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "CRP may reduce taxes owing to the CRA",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 4,
+    "_feedback": {
+      "title": "Feeback",
+      "correct": "<p>Correct answer</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect answer</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Accordions",
+    "displayTitle": "",
+    "body": "<p><strong>How to display information and graphics in specific containers.</strong></p>",
+    "_id": "5f29801a935326061910ea60",
+    "_parentId": "5f29801a935326061910ea3d",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Below is an accordion, it is used to reveal more information in less space. Accordions are used for terms or like subjects.",
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Click on the \"+\" sign to the right to open the accordion.",
+        "body": "<p>More information is revealed here:</p><ul><!--<li>This may vary for each individual person as every person learns at their own pace.</li>--><li>When the accordion is opened, this text is visible.</li><li>This is a list, they are common in accordions.</li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Once opened",
+        "body": "<p>You can add images to accordions.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": " Closing accordions",
+        "body": "<p>Once you are done reading you can close the accordion by clicking the \"-\" sign.</p><ul><li>Accordions can be long.</li><li>You can fit as much information into it as you need to.</li><li>Example text to demonstrate length.</li><li>More example text.</li><li>Example text to demonstrate length.</li><li>More example text.</li><li>This can go on as long as is needed, although if your accordion text is going to be incredibly long or complicated, consider making that information into a slide.</li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Accordion with an image – Check it out!",
+        "body": "<p>This accordion has an image inside of it.</p>",
+        "_graphic": {
+          "alt": "Fraud Triangle",
+          "src": "course/en/assets/97ce5fcdd632bf6680a68a5ef4d193234fec2598.png",
+          "attribution": ""
+        },
+        "_classes": "image"
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_component": "narrative",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Carousels",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea61",
+    "_parentId": "5f29801a935326061910ea3e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Below is a carousel, it is used to present graphical information. Specifically handy for walkthroughs or tutorials.",
+    "mobileInstruction": "Below is a carousel, it is used to present graphical information. Specifically handy for walkthroughs or tutorials.",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Take Note: ",
+        "_ariaLevel": 0,
+        "body": "<p>Renewal of the Aviation Document Booklet</p>",
+        "_graphic": {
+          "src": "course/en/assets/92f75bc8a624b5ad077bf462c5d0b67b6584f450.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Environment"
+      },
+      {
+        "title": "Take Note:",
+        "_ariaLevel": 0,
+        "body": "<p>Grade Crossing Improvement Program (GCIP)</p>",
+        "_graphic": {
+          "src": "course/en/assets/8e640ec749b4c58ba06fdbb7a2c8826bf0d18764.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Banff"
+      },
+      {
+        "title": "Take Note: ",
+        "_ariaLevel": 0,
+        "body": "<p>Tanker Safety Expert Panel</p>",
+        "_graphic": {
+          "src": "course/en/assets/2591975f4ac70c1535ed9630c65226523711707a.jpg",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Travel"
+      }
+    ]
+  },
+  {
+    "_component": "media",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Video",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea62",
+    "_parentId": "5f29801a935326061910ea3f",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "For video, the multimedia player leverages the native HTML5 video tag. The MPEG 4 format (H264 codec) is the minimum requirement for video because it is the standard video format on many browsers. The multimedia player's timeline relies on the HTML5 progress element and uses a polyfill when the element is not supported.",
+    "_media": {
+      "mp4": "https://adaptlearning.github.io/v4demo/course/en/video/c-40.mp4",
+      "ogv": "",
+      "webm": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "",
+      "cc": []
+    },
+    "_setCompletionOn": "ended",
+    "_useClosedCaptions": true,
+    "_startLanguage": "en",
+    "_showVolumeControl": false,
+    "_startVolume": "80%",
+    "_allowFullScreen": true,
+    "_pauseWhenOffScreen": true,
+    "_playsinline": true,
+    "_preventForwardScrubbing": false,
+    "_transcript": {
+      "_setCompletionOnView": false,
+      "_inlineTranscript": true,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "Transcript",
+      "inlineTranscriptCloseButton": "Transcript",
+      "inlineTranscriptBody": "<p>Responsive design means you can create a course once but view it on a wide range of browsers, devices or operating systems. This is achieved by using fluid layouts to ensure the presentation of content is tailored to suit the size of the screen. This means you can start a course on your laptop and finish it later on your mobile or tablet. We call it Adapt</p>",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_component": "quicknav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea63",
+    "_parentId": "5f29801a935326061910ea40",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "The navigation bar is a component within the last block. Use the navigation block to introduce the next topic or page.",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Go to main menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Next >",
+        "ariaLabel": "Next Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "media",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Audio",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea64",
+    "_parentId": "5f29801a935326061910ea41",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "",
+      "ogv": "",
+      "webm": "",
+      "mp3": "course/en/assets/6c979a8cab773afcacf0313dadaeb9d70c6754b5.mp3",
+      "source": "",
+      "type": "",
+      "poster": "",
+      "cc": []
+    },
+    "_setCompletionOn": "inview",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_showVolumeControl": false,
+    "_startVolume": "80%",
+    "_allowFullScreen": false,
+    "_pauseWhenOffScreen": false,
+    "_playsinline": false,
+    "_preventForwardScrubbing": false,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": true,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "Transcript ",
+      "inlineTranscriptCloseButton": "Transcript ",
+      "inlineTranscriptBody": "<p>&nbsp;</p><p>This is the Transcript that will have real text, This is an example :)</p>",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_component": "media",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Video",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea65",
+    "_parentId": "5f29801a935326061910ea42",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "For video, the multimedia player leverages the native HTML5 video tag. The MPEG 4 format (H264 codec) is the minimum requirement for video because it is the standard video format on many browsers. The multimedia player's timeline relies on the HTML5 progress element and uses a polyfill when the element is not supported.",
+    "_media": {
+      "mp4": "https://adaptlearning.github.io/v4demo/course/en/video/c-40.mp4",
+      "ogv": "",
+      "webm": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "course/en/assets/89d34db8749432db7d1ae62969bcf812a09b8dce.png",
+      "cc": []
+    },
+    "_setCompletionOn": "ended",
+    "_useClosedCaptions": true,
+    "_startLanguage": "en",
+    "_showVolumeControl": true,
+    "_startVolume": "80%",
+    "_allowFullScreen": true,
+    "_pauseWhenOffScreen": true,
+    "_playsinline": true,
+    "_preventForwardScrubbing": false,
+    "_transcript": {
+      "_setCompletionOnView": false,
+      "_inlineTranscript": true,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "Transcript",
+      "inlineTranscriptCloseButton": "Transcript",
+      "inlineTranscriptBody": "<p>Responsive design means you can create a course once but view it on a wide range of browsers, devices or operating systems. This is achieved by using fluid layouts to ensure the presentation of content is tailored to suit the size of the screen. This means you can start a course on your laptop and finish it later on your mobile or tablet. We call it Adapt</p>",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "Component title (h4)",
+    "body": "<p>Donec sit amet congue lacus. Mauris libero dolor, pharetra et consequat ac, rhoncus id ligula. Aenean eu rutrum sem. Pellentesque faucibus diam sed dui ultricies accumsan. Nulla a neque et quam egestas pretium nec eget dolor. Proin et erat massa. In venenatis ligula non velit finibus, sed suscipit lectus ultrices. Pellentesque dictum quam vestibulum nisl congue, ut convallis lacus gravida. Cras elementum rhoncus elit id egestas. Vestibulum vitae suscipit diam. Aenean ligula ipsum, aliquet non viverra a, semper ac lectus. Sed rhoncus feugiat augue, at aliquam nisl sodales a. Nullam id pellentesque felis.</p>",
+    "_id": "5f29801a935326061910ea66",
+    "_parentId": "5f29801a935326061910ea43",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Component Instruction Text (optional)"
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Headings and Accessibility ",
+    "displayTitle": "Headings and Accessibility (h4)",
+    "body": "<p>Using descriptive headings is helpful for all users but it is especially beneficial to people who use accessible technologies. Properly written headings allow users to quickly scan and navigate content on a page and help to determine the structure of the information being presented.</p>",
+    "_id": "5f29801a935326061910ea67",
+    "_parentId": "5f29801a935326061910ea44",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Slides vs Scrolling Pages ",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea68",
+    "_parentId": "5f29801a935326061910ea43",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Slides vs Scrolling Pages",
+      "large": "course/en/assets/1914b0d97638b5092a0382b571d57bc19ee3cd31.png",
+      "small": "course/en/assets/1914b0d97638b5092a0382b571d57bc19ee3cd31.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "heading pyramid",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Headings Pyramid ",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea69",
+    "_parentId": "5f29801a935326061910ea44",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/55229db1c67a4adc41edb98554970f2df1d23740.png",
+      "small": "course/en/assets/55229db1c67a4adc41edb98554970f2df1d23740.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "quicknav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "Navigation",
+    "body": "<p>In the Snap! framework we have several methods of navigating the course. There is back button in the menu bar, a sitemap in the menu bar, and Previous and Next buttons in the navigation bar at the end of each page. The navigation bar is a component within the last block. Use the navigation block to introduce the next topic or page.</p>",
+    "_id": "5f29801a935326061910ea6a",
+    "_parentId": "5f29801a935326061910ea45",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Try using the different methods of navigating the course content",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Previous",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Go to main menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Next >",
+        "ariaLabel": "Next Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Color Table",
+    "displayTitle": "",
+    "body": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"0\" style=\"width:100%\"><thead><tr><th scope=\"col\">Color</th><th scope=\"col\">Name</th><th scope=\"col\">HEX</th><th scope=\"col\">RGB</th><th scope=\"col\">Uses</th></tr></thead><tbody><tr><td style=\"text-align: center; background-color: rgb(38, 55, 74);\">&nbsp;</td><td style=\"text-align: center;\">Primary Colour</td><td style=\"text-align: center;\">#26374A</td><td style=\"text-align: center;\">(38, 55, 74)</td><td style=\"text-align: center;\">Banner, Callouts</td></tr><tr><td style=\"text-align: center; background-color: rgb(28, 87, 138);\">&nbsp;</td><td style=\"text-align: center;\">Interactive Colour</td><td style=\"text-align: center;\">#1C578A</td><td style=\"text-align: center;\">(28,87,138)</td><td style=\"text-align: center;\">Buttons, Links, Accordions</td></tr><tr><td style=\"text-align: center; background-color: rgb(37, 114,180);\">&nbsp;</td><td style=\"text-align: center;\">interactive Hover Colour</td><td style=\"text-align: center;\">#2572B4</td><td style=\"text-align: center;\">(37,114,180)</td><td style=\"text-align: center;\">Active Buttons, Links, Accordions</td></tr><tr><td style=\"text-align: center; background-color: rgb(102, 102,102\">&nbsp;</td><td style=\"text-align: center;\">Inactive Colour</td><td style=\"text-align: center;\">#205a9f</td><td style=\"text-align: center;\">(32,90,159)</td><td style=\"text-align: center;\">Disabled Buttons</td></tr><tr><td style=\"text-align: center; background-color: rgb(105, 69, 156);\">&nbsp;</td><td style=\"text-align: center;\">Alternate Colour</td><td style=\"text-align: center;\">#69459C</td><td style=\"text-align: center;\">(105,69,156)</td><td style=\"text-align: center;\">For Illustration purposes only</td></tr><tr><td style=\"text-align: center; background-color: rgb(205, 28,106);\">&nbsp;</td><td style=\"text-align: center;\">Alternate Colour</td><td style=\"text-align: center;\">#CD1C6A</td><td style=\"text-align: center;\">(205,28,106)</td><td style=\"text-align: center;\">For Illustration purposes only</td></tr></tbody></table>",
+    "_id": "5f29801a935326061910ea6b",
+    "_parentId": "5f29801a935326061910ea46",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "Component title",
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</p>",
+    "_id": "5f29801a935326061910ea6c",
+    "_parentId": "5f29801a935326061910ea48",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Instruction Text"
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "Component title",
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</p>",
+    "_id": "5f29801a935326061910ea6d",
+    "_parentId": "5f29801a935326061910ea49",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Instruction Text"
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "Component title",
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</p>",
+    "_id": "5f29801a935326061910ea6e",
+    "_parentId": "5f29801a935326061910ea4b",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Instruction Text"
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "<table id=\"icons-table\"><tbody><tr><td style=\"text-align:center\">New Icons</td><td style=\"text-align:center\">Description</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-arrow-alt-circle-right fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"arrow-alt-circle-right\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 256 8 c 137 0 248 111 248 248 S 393 504 256 504 S 8 393 8 256 S 119 8 256 8 Z M 140 300 h 116 v 70.9 c 0 10.7 13 16.1 20.5 8.5 l 114.3 -114.9 c 4.7 -4.7 4.7 -12.2 0 -16.9 l -114.3 -115 c -7.6 -7.6 -20.5 -2.2 -20.5 8.5 V 212 H 140 c -6.6 0 -12 5.4 -12 12 v 64 c 0 6.6 5.4 12 12 12 Z\" fill=\"currentColor\"></path></svg></td><td>Go To / Allez à</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-calculator fa-w-14 fa-2x\" data-fa-i2svg=\"\" data-icon=\"calculator\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 400 0 H 48 C 22.4 0 0 22.4 0 48 v 416 c 0 25.6 22.4 48 48 48 h 352 c 25.6 0 48 -22.4 48 -48 V 48 c 0 -25.6 -22.4 -48 -48 -48 Z M 128 435.2 c 0 6.4 -6.4 12.8 -12.8 12.8 H 76.8 c -6.4 0 -12.8 -6.4 -12.8 -12.8 v -38.4 c 0 -6.4 6.4 -12.8 12.8 -12.8 h 38.4 c 6.4 0 12.8 6.4 12.8 12.8 v 38.4 Z m 0 -128 c 0 6.4 -6.4 12.8 -12.8 12.8 H 76.8 c -6.4 0 -12.8 -6.4 -12.8 -12.8 v -38.4 c 0 -6.4 6.4 -12.8 12.8 -12.8 h 38.4 c 6.4 0 12.8 6.4 12.8 12.8 v 38.4 Z m 128 128 c 0 6.4 -6.4 12.8 -12.8 12.8 h -38.4 c -6.4 0 -12.8 -6.4 -12.8 -12.8 v -38.4 c 0 -6.4 6.4 -12.8 12.8 -12.8 h 38.4 c 6.4 0 12.8 6.4 12.8 12.8 v 38.4 Z m 0 -128 c 0 6.4 -6.4 12.8 -12.8 12.8 h -38.4 c -6.4 0 -12.8 -6.4 -12.8 -12.8 v -38.4 c 0 -6.4 6.4 -12.8 12.8 -12.8 h 38.4 c 6.4 0 12.8 6.4 12.8 12.8 v 38.4 Z m 128 128 c 0 6.4 -6.4 12.8 -12.8 12.8 h -38.4 c -6.4 0 -12.8 -6.4 -12.8 -12.8 V 268.8 c 0 -6.4 6.4 -12.8 12.8 -12.8 h 38.4 c 6.4 0 12.8 6.4 12.8 12.8 v 166.4 Z m 0 -256 c 0 6.4 -6.4 12.8 -12.8 12.8 H 76.8 c -6.4 0 -12.8 -6.4 -12.8 -12.8 V 76.8 C 64 70.4 70.4 64 76.8 64 h 294.4 c 6.4 0 12.8 6.4 12.8 12.8 v 102.4 Z\" fill=\"currentColor\"></path></svg></td><td>Calculation / Calcul</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-square-root-alt fa-w-18 fa-2x\" data-fa-i2svg=\"\" data-icon=\"square-root-alt\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 571.31 251.31 l -22.62 -22.62 c -6.25 -6.25 -16.38 -6.25 -22.63 0 L 480 274.75 l -46.06 -46.06 c -6.25 -6.25 -16.38 -6.25 -22.63 0 l -22.62 22.62 c -6.25 6.25 -6.25 16.38 0 22.63 L 434.75 320 l -46.06 46.06 c -6.25 6.25 -6.25 16.38 0 22.63 l 22.62 22.62 c 6.25 6.25 16.38 6.25 22.63 0 L 480 365.25 l 46.06 46.06 c 6.25 6.25 16.38 6.25 22.63 0 l 22.62 -22.62 c 6.25 -6.25 6.25 -16.38 0 -22.63 L 525.25 320 l 46.06 -46.06 c 6.25 -6.25 6.25 -16.38 0 -22.63 Z M 552 0 H 307.65 c -14.54 0 -27.26 9.8 -30.95 23.87 l -84.79 322.8 l -58.41 -106.1 A 32.008 32.008 0 0 0 105.47 224 H 24 c -13.25 0 -24 10.74 -24 24 v 48 c 0 13.25 10.75 24 24 24 h 43.62 l 88.88 163.73 C 168.99 503.5 186.3 512 204.94 512 c 17.27 0 44.44 -9 54.28 -41.48 L 357.03 96 H 552 c 13.25 0 24 -10.75 24 -24 V 24 c 0 -13.26 -10.75 -24 -24 -24 Z\" fill=\"currentColor\"></path></svg></td><td>Formula / Formule</td></tr><tr><td> <svg class=\"svg-inline--fa fa-balance-scale fa-w-20 fa-2x\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"balance-scale\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\" data-fa-i2svg=\"\"><path fill=\"currentColor\" d=\"M256 336h-.02c0-16.18 1.34-8.73-85.05-181.51-17.65-35.29-68.19-35.36-85.87 0C-2.06 328.75.02 320.33.02 336H0c0 44.18 57.31 80 128 80s128-35.82 128-80zM128 176l72 144H56l72-144zm511.98 160c0-16.18 1.34-8.73-85.05-181.51-17.65-35.29-68.19-35.36-85.87 0-87.12 174.26-85.04 165.84-85.04 181.51H384c0 44.18 57.31 80 128 80s128-35.82 128-80h-.02zM440 320l72-144 72 144H440zm88 128H352V153.25c23.51-10.29 41.16-31.48 46.39-57.25H528c8.84 0 16-7.16 16-16V48c0-8.84-7.16-16-16-16H383.64C369.04 12.68 346.09 0 320 0s-49.04 12.68-63.64 32H112c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h129.61c5.23 25.76 22.87 46.96 46.39 57.25V448H112c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h416c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z\"></path></svg></td><td>Legislation / Législation</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-lightbulb fa-w-11 fa-2x\" data-fa-i2svg=\"\" data-icon=\"lightbulb\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 352 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 96.06 454.35 c 0.01 6.29 1.87 12.45 5.36 17.69 l 17.09 25.69 a 31.99 31.99 0 0 0 26.64 14.28 h 61.71 a 31.99 31.99 0 0 0 26.64 -14.28 l 17.09 -25.69 a 31.989 31.989 0 0 0 5.36 -17.69 l 0.04 -38.35 H 96.01 l 0.05 38.35 Z M 0 176 c 0 44.37 16.45 84.85 43.56 115.78 c 16.52 18.85 42.36 58.23 52.21 91.45 c 0.04 0.26 0.07 0.52 0.11 0.78 h 160.24 c 0.04 -0.26 0.07 -0.51 0.11 -0.78 c 9.85 -33.22 35.69 -72.6 52.21 -91.45 C 335.55 260.85 352 220.37 352 176 C 352 78.61 272.91 -0.3 175.45 0 C 73.44 0.31 0 82.97 0 176 Z m 176 -80 c -44.11 0 -80 35.89 -80 80 c 0 8.84 -7.16 16 -16 16 s -16 -7.16 -16 -16 c 0 -61.76 50.24 -112 112 -112 c 8.84 0 16 7.16 16 16 s -7.16 16 -16 16 Z\" fill=\"currentColor\"></path></svg></td><td>Nice to Know / Bon à savoir</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-exclamation-circle fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"exclamation-circle\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 504 256 c 0 136.997 -111.043 248 -248 248 S 8 392.997 8 256 C 8 119.083 119.043 8 256 8 s 248 111.083 248 248 Z m -248 50 c -25.405 0 -46 20.595 -46 46 s 20.595 46 46 46 s 46 -20.595 46 -46 s -20.595 -46 -46 -46 Z m -43.673 -165.346 l 7.418 136 c 0.347 6.364 5.609 11.346 11.982 11.346 h 48.546 c 6.373 0 11.635 -4.982 11.982 -11.346 l 7.418 -136 c 0.375 -6.874 -5.098 -12.654 -11.982 -12.654 h -63.383 c -6.884 0 -12.356 5.78 -11.981 12.654 Z\" fill=\"currentColor\"></path></svg></td><td>Take Note! OR Important! / Notez bien! OR Important!</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-clock fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"clock\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 256 8 C 119 8 8 119 8 256 s 111 248 248 248 s 248 -111 248 -248 S 393 8 256 8 Z m 57.1 350.1 L 224.9 294 c -3.1 -2.3 -4.9 -5.9 -4.9 -9.7 V 116 c 0 -6.6 5.4 -12 12 -12 h 48 c 6.6 0 12 5.4 12 12 v 137.7 l 63.5 46.2 c 5.4 3.9 6.5 11.4 2.6 16.8 l -28.2 38.8 c -3.9 5.3 -11.4 6.5 -16.8 2.6 Z\" fill=\"currentColor\"></path></svg></td><td>Duration / Durée</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-pencil-alt fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"pencil-alt\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 497.9 142.1 l -46.1 46.1 c -4.7 4.7 -12.3 4.7 -17 0 l -111 -111 c -4.7 -4.7 -4.7 -12.3 0 -17 l 46.1 -46.1 c 18.7 -18.7 49.1 -18.7 67.9 0 l 60.1 60.1 c 18.8 18.7 18.8 49.1 0 67.9 Z M 284.2 99.8 L 21.6 362.4 L 0.4 483.9 c -2.9 16.4 11.4 30.6 27.8 27.8 l 121.5 -21.3 l 262.6 -262.6 c 4.7 -4.7 4.7 -12.3 0 -17 l -111 -111 c -4.8 -4.7 -12.4 -4.7 -17.1 0 Z M 124.1 339.9 c -5.5 -5.5 -5.5 -14.3 0 -19.8 l 154 -154 c 5.5 -5.5 14.3 -5.5 19.8 0 s 5.5 14.3 0 19.8 l -154 154 c -5.5 5.5 -14.3 5.5 -19.8 0 Z M 88 424 h 48 v 36.3 l -64.5 11.3 l -31.1 -31.1 L 51.7 376 H 88 v 48 Z\" fill=\"currentColor\"></path></svg></td><td>Trainer’s Note / Remarque à l’intention du formateur</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-sticky-note fa-w-14 fa-2x\" data-fa-i2svg=\"\" data-icon=\"sticky-note\" data-prefix=\"far\" focusable=\"false\" role=\"img\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 448 348.106 V 80 c 0 -26.51 -21.49 -48 -48 -48 H 48 C 21.49 32 0 53.49 0 80 v 351.988 c 0 26.51 21.49 48 48 48 h 268.118 a 48 48 0 0 0 33.941 -14.059 l 83.882 -83.882 A 48 48 0 0 0 448 348.106 Z m -128 80 v -76.118 h 76.118 L 320 428.106 Z M 400 80 v 223.988 H 296 c -13.255 0 -24 10.745 -24 24 v 104 H 48 V 80 h 352 Z\" fill=\"currentColor\"></path></svg></td><td>Trainer’s Speaking Notes / Notes d’allocution</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-folder-open fa-w-18 fa-2x\" data-fa-i2svg=\"\" data-icon=\"folder-open\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 572.694 292.093 L 500.27 416.248 A 63.997 63.997 0 0 1 444.989 448 H 45.025 c -18.523 0 -30.064 -20.093 -20.731 -36.093 l 72.424 -124.155 A 64 64 0 0 1 152 256 h 399.964 c 18.523 0 30.064 20.093 20.73 36.093 Z M 152 224 h 328 v -48 c 0 -26.51 -21.49 -48 -48 -48 H 272 l -64 -64 H 48 C 21.49 64 0 85.49 0 112 v 278.046 l 69.077 -118.418 C 86.214 242.25 117.989 224 152 224 Z\" fill=\"currentColor\"></path></svg></td><td>Case Study / Étude de cas</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-poll-h fa-w-14 fa-2x\" data-fa-i2svg=\"\" data-icon=\"poll-h\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 448 432 V 80 c 0 -26.5 -21.5 -48 -48 -48 H 48 C 21.5 32 0 53.5 0 80 v 352 c 0 26.5 21.5 48 48 48 h 352 c 26.5 0 48 -21.5 48 -48 Z M 112 192 c -8.84 0 -16 -7.16 -16 -16 v -32 c 0 -8.84 7.16 -16 16 -16 h 128 c 8.84 0 16 7.16 16 16 v 32 c 0 8.84 -7.16 16 -16 16 H 112 Z m 0 96 c -8.84 0 -16 -7.16 -16 -16 v -32 c 0 -8.84 7.16 -16 16 -16 h 224 c 8.84 0 16 7.16 16 16 v 32 c 0 8.84 -7.16 16 -16 16 H 112 Z m 0 96 c -8.84 0 -16 -7.16 -16 -16 v -32 c 0 -8.84 7.16 -16 16 -16 h 64 c 8.84 0 16 7.16 16 16 v 32 c 0 8.84 -7.16 16 -16 16 h -64 Z\" fill=\"currentColor\"></path></svg></td><td>Polling / Votez</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-hourglass-half fa-w-12 fa-2x\" data-fa-i2svg=\"\" data-icon=\"hourglass-half\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 384 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 360 0 H 24 C 10.745 0 0 10.745 0 24 v 16 c 0 13.255 10.745 24 24 24 c 0 90.965 51.016 167.734 120.842 192 C 75.016 280.266 24 357.035 24 448 c -13.255 0 -24 10.745 -24 24 v 16 c 0 13.255 10.745 24 24 24 h 336 c 13.255 0 24 -10.745 24 -24 v -16 c 0 -13.255 -10.745 -24 -24 -24 c 0 -90.965 -51.016 -167.734 -120.842 -192 C 308.984 231.734 360 154.965 360 64 c 13.255 0 24 -10.745 24 -24 V 24 c 0 -13.255 -10.745 -24 -24 -24 Z m -75.078 384 H 99.08 c 17.059 -46.797 52.096 -80 92.92 -80 c 40.821 0 75.862 33.196 92.922 80 Z m 0.019 -256 H 99.078 C 91.988 108.548 88 86.748 88 64 h 208 c 0 22.805 -3.987 44.587 -11.059 64 Z\" fill=\"currentColor\"></path></svg></td><td>Prep Time / Temps de préparation</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-book-open fa-w-18 fa-2x\" data-fa-i2svg=\"\" data-icon=\"book-open\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 542.22 32.05 c -54.8 3.11 -163.72 14.43 -230.96 55.59 c -4.64 2.84 -7.27 7.89 -7.27 13.17 v 363.87 c 0 11.55 12.63 18.85 23.28 13.49 c 69.18 -34.82 169.23 -44.32 218.7 -46.92 c 16.89 -0.89 30.02 -14.43 30.02 -30.66 V 62.75 c 0.01 -17.71 -15.35 -31.74 -33.77 -30.7 Z M 264.73 87.64 C 197.5 46.48 88.58 35.17 33.78 32.05 C 15.36 31.01 0 45.04 0 62.75 V 400.6 c 0 16.24 13.13 29.78 30.02 30.66 c 49.49 2.6 149.59 12.11 218.77 46.95 c 10.62 5.35 23.21 -1.94 23.21 -13.46 V 100.63 c 0 -5.29 -2.62 -10.14 -7.27 -12.99 Z\" fill=\"currentColor\"></path></svg></td><td>Read / Participant Reads/ Lecture / Lecture pour les participants</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-globe fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"globe\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 496 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 336.5 160 C 322 70.7 287.8 8 248 8 s -74 62.7 -88.5 152 h 177 Z M 152 256 c 0 22.2 1.2 43.5 3.3 64 h 185.3 c 2.1 -20.5 3.3 -41.8 3.3 -64 s -1.2 -43.5 -3.3 -64 H 155.3 c -2.1 20.5 -3.3 41.8 -3.3 64 Z m 324.7 -96 c -28.6 -67.9 -86.5 -120.4 -158 -141.6 c 24.4 33.8 41.2 84.7 50 141.6 h 108 Z M 177.2 18.4 C 105.8 39.6 47.8 92.1 19.3 160 h 108 c 8.7 -56.9 25.5 -107.8 49.9 -141.6 Z M 487.4 192 H 372.7 c 2.1 21 3.3 42.5 3.3 64 s -1.2 43 -3.3 64 h 114.6 c 5.5 -20.5 8.6 -41.8 8.6 -64 s -3.1 -43.5 -8.5 -64 Z M 120 256 c 0 -21.5 1.2 -43 3.3 -64 H 8.6 C 3.2 212.5 0 233.8 0 256 s 3.2 43.5 8.6 64 h 114.6 c -2 -21 -3.2 -42.5 -3.2 -64 Z m 39.5 96 c 14.5 89.3 48.7 152 88.5 152 s 74 -62.7 88.5 -152 h -177 Z m 159.3 141.6 c 71.4 -21.2 129.4 -73.7 158 -141.6 h -108 c -8.8 56.9 -25.6 107.8 -50 141.6 Z M 19.3 352 c 28.6 67.9 86.5 120.4 158 141.6 c -24.4 -33.8 -41.2 -84.7 -50 -141.6 h -108 Z\" fill=\"currentColor\"></path></svg></td><td>Web Link/Reference / Lien sur le Web / Référence</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-desktop fa-w-18 fa-2x\" data-fa-i2svg=\"\" data-icon=\"desktop\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 528 0 H 48 C 21.5 0 0 21.5 0 48 v 320 c 0 26.5 21.5 48 48 48 h 192 l -16 48 h -72 c -13.3 0 -24 10.7 -24 24 s 10.7 24 24 24 h 272 c 13.3 0 24 -10.7 24 -24 s -10.7 -24 -24 -24 h -72 l -16 -48 h 192 c 26.5 0 48 -21.5 48 -48 V 48 c 0 -26.5 -21.5 -48 -48 -48 Z m -16 352 H 64 V 64 h 448 v 288 Z\" fill=\"currentColor\"></path></svg></td><td>Webinar / Presentation / Display / On Screen / PowerPoint Slides/Webinar / Présentation / Afficher / à l’écran / Diapositives PowerPoint</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-question-circle fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"question-circle\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 504 256 c 0 136.997 -111.043 248 -248 248 S 8 392.997 8 256 C 8 119.083 119.043 8 256 8 s 248 111.083 248 248 Z M 262.655 90 c -54.497 0 -89.255 22.957 -116.549 63.758 c -3.536 5.286 -2.353 12.415 2.715 16.258 l 34.699 26.31 c 5.205 3.947 12.621 3.008 16.665 -2.122 c 17.864 -22.658 30.113 -35.797 57.303 -35.797 c 20.429 0 45.698 13.148 45.698 32.958 c 0 14.976 -12.363 22.667 -32.534 33.976 C 247.128 238.528 216 254.941 216 296 v 4 c 0 6.627 5.373 12 12 12 h 56 c 6.627 0 12 -5.373 12 -12 v -1.333 c 0 -28.462 83.186 -29.647 83.186 -106.667 c 0 -58.002 -60.165 -102 -116.531 -102 Z M 256 338 c -25.365 0 -46 20.635 -46 46 c 0 25.364 20.635 46 46 46 s 46 -20.636 46 -46 c 0 -25.365 -20.635 -46 -46 -46 Z\" fill=\"currentColor\"></path></svg></td><td>Question</td></tr><tr><td>N/A</td><td>Answer / Réponse</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-search fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"search\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 505 442.7 L 405.3 343 c -4.5 -4.5 -10.6 -7 -17 -7 H 372 c 27.6 -35.3 44 -79.7 44 -128 C 416 93.1 322.9 0 208 0 S 0 93.1 0 208 s 93.1 208 208 208 c 48.3 0 92.7 -16.4 128 -44 v 16.3 c 0 6.4 2.5 12.5 7 17 l 99.7 99.7 c 9.4 9.4 24.6 9.4 33.9 0 l 28.3 -28.3 c 9.4 -9.4 9.4 -24.6 0.1 -34 Z M 208 336 c -70.7 0 -128 -57.2 -128 -128 c 0 -70.7 57.2 -128 128 -128 c 70.7 0 128 57.2 128 128 c 0 70.7 -57.2 128 -128 128 Z\" fill=\"currentColor\"></path></svg></td><td>Definition / Définition</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-puzzle-piece fa-w-18 fa-2x\" data-fa-i2svg=\"\" data-icon=\"puzzle-piece\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 519.442 288.651 c -41.519 0 -59.5 31.593 -82.058 31.593 C 377.409 320.244 432 144 432 144 s -196.288 80 -196.288 -3.297 c 0 -35.827 36.288 -46.25 36.288 -85.985 C 272 19.216 243.885 0 210.539 0 c -34.654 0 -66.366 18.891 -66.366 56.346 c 0 41.364 31.711 59.277 31.711 81.75 C 175.885 207.719 0 166.758 0 166.758 v 333.237 s 178.635 41.047 178.635 -28.662 c 0 -22.473 -40 -40.107 -40 -81.471 c 0 -37.456 29.25 -56.346 63.577 -56.346 c 33.673 0 61.788 19.216 61.788 54.717 c 0 39.735 -36.288 50.158 -36.288 85.985 c 0 60.803 129.675 25.73 181.23 25.73 c 0 0 -34.725 -120.101 25.827 -120.101 c 35.962 0 46.423 36.152 86.308 36.152 C 556.712 416 576 387.99 576 354.443 c 0 -34.199 -18.962 -65.792 -56.558 -65.792 Z\" fill=\"currentColor\"></path></svg></td><td>Activity / Exercise / Group Activity / Activité / Exercice / Activité de groupe</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-thumbs-up fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"thumbs-up\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 104 224 H 24 c -13.255 0 -24 10.745 -24 24 v 240 c 0 13.255 10.745 24 24 24 h 80 c 13.255 0 24 -10.745 24 -24 V 248 c 0 -13.255 -10.745 -24 -24 -24 Z M 64 472 c -13.255 0 -24 -10.745 -24 -24 s 10.745 -24 24 -24 s 24 10.745 24 24 s -10.745 24 -24 24 Z M 384 81.452 c 0 42.416 -25.97 66.208 -33.277 94.548 h 101.723 c 33.397 0 59.397 27.746 59.553 58.098 c 0.084 17.938 -7.546 37.249 -19.439 49.197 l -0.11 0.11 c 9.836 23.337 8.237 56.037 -9.308 79.469 c 8.681 25.895 -0.069 57.704 -16.382 74.757 c 4.298 17.598 2.244 32.575 -6.148 44.632 C 440.202 511.587 389.616 512 346.839 512 l -2.845 -0.001 c -48.287 -0.017 -87.806 -17.598 -119.56 -31.725 c -15.957 -7.099 -36.821 -15.887 -52.651 -16.178 c -6.54 -0.12 -11.783 -5.457 -11.783 -11.998 v -213.77 c 0 -3.2 1.282 -6.271 3.558 -8.521 c 39.614 -39.144 56.648 -80.587 89.117 -113.111 c 14.804 -14.832 20.188 -37.236 25.393 -58.902 C 282.515 39.293 291.817 0 312 0 c 24 0 72 8 72 81.452 Z\" fill=\"currentColor\"></path></svg></td><td>Best Practice / Pratique exemplaire</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-headset fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"headset\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 192 208 c 0 -17.67 -14.33 -32 -32 -32 h -16 c -35.35 0 -64 28.65 -64 64 v 48 c 0 35.35 28.65 64 64 64 h 16 c 17.67 0 32 -14.33 32 -32 V 208 Z m 176 144 c 35.35 0 64 -28.65 64 -64 v -48 c 0 -35.35 -28.65 -64 -64 -64 h -16 c -17.67 0 -32 14.33 -32 32 v 112 c 0 17.67 14.33 32 32 32 h 16 Z M 256 0 C 113.18 0 4.58 118.83 0 256 v 16 c 0 8.84 7.16 16 16 16 h 16 c 8.84 0 16 -7.16 16 -16 v -16 c 0 -114.69 93.31 -208 208 -208 s 208 93.31 208 208 h -0.12 c 0.08 2.43 0.12 165.72 0.12 165.72 c 0 23.35 -18.93 42.28 -42.28 42.28 H 320 c 0 -26.51 -21.49 -48 -48 -48 h -32 c -26.51 0 -48 21.49 -48 48 s 21.49 48 48 48 h 181.72 c 49.86 0 90.28 -40.42 90.28 -90.28 V 256 C 507.42 118.83 398.82 0 256 0 Z\" fill=\"currentColor\"></path></svg></td><td>Call Listening / Écoute téléphonique</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-pencil-alt fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"pencil-alt\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 497.9 142.1 l -46.1 46.1 c -4.7 4.7 -12.3 4.7 -17 0 l -111 -111 c -4.7 -4.7 -4.7 -12.3 0 -17 l 46.1 -46.1 c 18.7 -18.7 49.1 -18.7 67.9 0 l 60.1 60.1 c 18.8 18.7 18.8 49.1 0 67.9 Z M 284.2 99.8 L 21.6 362.4 L 0.4 483.9 c -2.9 16.4 11.4 30.6 27.8 27.8 l 121.5 -21.3 l 262.6 -262.6 c 4.7 -4.7 4.7 -12.3 0 -17 l -111 -111 c -4.8 -4.7 -12.4 -4.7 -17.1 0 Z M 124.1 339.9 c -5.5 -5.5 -5.5 -14.3 0 -19.8 l 154 -154 c 5.5 -5.5 14.3 -5.5 19.8 0 s 5.5 14.3 0 19.8 l -154 154 c -5.5 5.5 -14.3 5.5 -19.8 0 Z M 88 424 h 48 v 36.3 l -64.5 11.3 l -31.1 -31.1 L 51.7 376 H 88 v 48 Z\" fill=\"currentColor\"></path></svg></td><td>Notes (Participant takes notes in workbook) / Note</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-key fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"key\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 512 176.001 C 512 273.203 433.202 352 336 352 c -11.22 0 -22.19 -1.062 -32.827 -3.069 l -24.012 27.014 A 23.999 23.999 0 0 1 261.223 384 H 224 v 40 c 0 13.255 -10.745 24 -24 24 h -40 v 40 c 0 13.255 -10.745 24 -24 24 H 24 c -13.255 0 -24 -10.745 -24 -24 v -78.059 c 0 -6.365 2.529 -12.47 7.029 -16.971 l 161.802 -161.802 C 163.108 213.814 160 195.271 160 176 C 160 78.798 238.797 0.001 335.999 0 C 433.488 -0.001 512 78.511 512 176.001 Z M 336 128 c 0 26.51 21.49 48 48 48 s 48 -21.49 48 -48 s -21.49 -48 -48 -48 s -48 21.49 -48 48 Z\" fill=\"currentColor\"></path></svg></td><td>Keywords / Key Concept / Mots clé / Concept clé</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-paperclip fa-w-14 fa-2x\" data-fa-i2svg=\"\" data-icon=\"paperclip\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 43.246 466.142 c -58.43 -60.289 -57.341 -157.511 1.386 -217.581 L 254.392 34 c 44.316 -45.332 116.351 -45.336 160.671 0 c 43.89 44.894 43.943 117.329 0 162.276 L 232.214 383.128 c -29.855 30.537 -78.633 30.111 -107.982 -0.998 c -28.275 -29.97 -27.368 -77.473 1.452 -106.953 l 143.743 -146.835 c 6.182 -6.314 16.312 -6.422 22.626 -0.241 l 22.861 22.379 c 6.315 6.182 6.422 16.312 0.241 22.626 L 171.427 319.927 c -4.932 5.045 -5.236 13.428 -0.648 18.292 c 4.372 4.634 11.245 4.711 15.688 0.165 l 182.849 -186.851 c 19.613 -20.062 19.613 -52.725 -0.011 -72.798 c -19.189 -19.627 -49.957 -19.637 -69.154 0 L 90.39 293.295 c -34.763 35.56 -35.299 93.12 -1.191 128.313 c 34.01 35.093 88.985 35.137 123.058 0.286 l 172.06 -175.999 c 6.177 -6.319 16.307 -6.433 22.626 -0.256 l 22.877 22.364 c 6.319 6.177 6.434 16.307 0.256 22.626 l -172.06 175.998 c -59.576 60.938 -155.943 60.216 -214.77 -0.485 Z\" fill=\"currentColor\"></path></svg></td><td>Appendix / Annexe</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-hammer fa-w-18 fa-2x\" data-fa-i2svg=\"\" data-icon=\"hammer\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 571.31 193.94 l -22.63 -22.63 c -6.25 -6.25 -16.38 -6.25 -22.63 0 l -11.31 11.31 l -28.9 -28.9 c 5.63 -21.31 0.36 -44.9 -16.35 -61.61 l -45.25 -45.25 c -62.48 -62.48 -163.79 -62.48 -226.28 0 l 90.51 45.25 v 18.75 c 0 16.97 6.74 33.25 18.75 45.25 l 49.14 49.14 c 16.71 16.71 40.3 21.98 61.61 16.35 l 28.9 28.9 l -11.31 11.31 c -6.25 6.25 -6.25 16.38 0 22.63 l 22.63 22.63 c 6.25 6.25 16.38 6.25 22.63 0 l 90.51 -90.51 c 6.23 -6.24 6.23 -16.37 -0.02 -22.62 Z m -286.72 -15.2 c -3.7 -3.7 -6.84 -7.79 -9.85 -11.95 L 19.64 404.96 c -25.57 23.88 -26.26 64.19 -1.53 88.93 s 65.05 24.05 88.93 -1.53 l 238.13 -255.07 c -3.96 -2.91 -7.9 -5.87 -11.44 -9.41 l -49.14 -49.14 Z\" fill=\"currentColor\"></path></svg></td><td>Common Reference Tool, CRT procedure/Outil de référence commun (ORC), Procédure d’ORC</td></tr><tr><td><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-network-wired fa-w-20 fa-2x\" data-fa-i2svg=\"\" data-icon=\"network-wired\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 640 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 640 264 v -16 c 0 -8.84 -7.16 -16 -16 -16 H 344 v -40 h 72 c 17.67 0 32 -14.33 32 -32 V 32 c 0 -17.67 -14.33 -32 -32 -32 H 224 c -17.67 0 -32 14.33 -32 32 v 128 c 0 17.67 14.33 32 32 32 h 72 v 40 H 16 c -8.84 0 -16 7.16 -16 16 v 16 c 0 8.84 7.16 16 16 16 h 104 v 40 H 64 c -17.67 0 -32 14.33 -32 32 v 128 c 0 17.67 14.33 32 32 32 h 160 c 17.67 0 32 -14.33 32 -32 V 352 c 0 -17.67 -14.33 -32 -32 -32 h -56 v -40 h 304 v 40 h -56 c -17.67 0 -32 14.33 -32 32 v 128 c 0 17.67 14.33 32 32 32 h 160 c 17.67 0 32 -14.33 32 -32 V 352 c 0 -17.67 -14.33 -32 -32 -32 h -56 v -40 h 104 c 8.84 0 16 -7.16 16 -16 Z M 256 128 V 64 h 128 v 64 H 256 Z m -64 320 H 96 v -64 h 96 v 64 Z m 352 0 h -96 v -64 h 96 v 64 Z\" fill=\"currentColor\"></path></svg></td><td>System / Système</td></tr></tbody></table>",
+    "_id": "5f29801a935326061910ea6f",
+    "_parentId": "5f29801a935326061910ea47",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "quicknav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "Navigation",
+    "body": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\"><tbody><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table><p>&nbsp;</p>",
+    "_id": "5f29801a935326061910ea70",
+    "_parentId": "5f29801a935326061910ea4c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "The navigation bar is a component within the last block. Use the navigation block to introduce the next topic or page. ",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": true,
+        "_lockUntilPageComplete": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Go to main menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Next >",
+        "ariaLabel": "Next Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "quicknav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "Navigation",
+    "body": "",
+    "_id": "5f29801a935326061910ea71",
+    "_parentId": "5f29801a935326061910ea4d",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "The navigation bar is a component within the last block. Use the navigation block to introduce the next topic or page. ",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Go to main menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Next >",
+        "ariaLabel": "Next Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "quicknav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "Navigation",
+    "body": "",
+    "_id": "5f29801a935326061910ea72",
+    "_parentId": "5f29801a935326061910ea4e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "The navigation bar is a component within the last block. Use the navigation block to introduce the next topic or page. ",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Go to main menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Next >",
+        "ariaLabel": "Next Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": false,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Process",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea73",
+    "_parentId": "5f29801a935326061910ea4a",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/b79e6cd8c5a097d4897deed3ec864838ea3fc5bd.png",
+      "small": "course/en/assets/b79e6cd8c5a097d4897deed3ec864838ea3fc5bd.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Success",
+    "displayTitle": "",
+    "body": "",
+    "_id": "5f29801a935326061910ea74",
+    "_parentId": "5f29801a935326061910ea48",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/35a8d78667aeb3a043df0a30ad990103b75fa87f.png",
+      "small": "course/en/assets/35a8d78667aeb3a043df0a30ad990103b75fa87f.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Icon Boxes",
+    "displayTitle": "",
+    "body": "<p>Use Icons Boxes in conjunction with the Common Look and Feel icons. Each standard icon has an associated use and is outlined in the Style Guide section entitled Colours and Icons. Icon boxes are styled differently than regular text components to draw the learner's focus to special information.&nbsp;</p><p>If the client receives any weeks of regular benefits in the initial BP, the BP cannot be extended to pay additional weeks of special benefits. In addition, the client must have received at least 1 week of that special BT in the initial BP to receive that same BT in the extended BP.</p><table><tbody><tr><td style=\"background-color:#0f2a4a;\"><svg aria-hidden=\"true\" class=\"svg-inline--fa fa-key fa-w-16 fa-2x\" data-fa-i2svg=\"\" data-icon=\"key\" data-prefix=\"fas\" focusable=\"false\" role=\"img\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"> <path d=\"M 512 176.001 C 512 273.203 433.202 352 336 352 c -11.22 0 -22.19 -1.062 -32.827 -3.069 l -24.012 27.014 A 23.999 23.999 0 0 1 261.223 384 H 224 v 40 c 0 13.255 -10.745 24 -24 24 h -40 v 40 c 0 13.255 -10.745 24 -24 24 H 24 c -13.255 0 -24 -10.745 -24 -24 v -78.059 c 0 -6.365 2.529 -12.47 7.029 -16.971 l 161.802 -161.802 C 163.108 213.814 160 195.271 160 176 C 160 78.798 238.797 0.001 335.999 0 C 433.488 -0.001 512 78.511 512 176.001 Z M 336 128 c 0 26.51 21.49 48 48 48 s 48 -21.49 48 -48 s -21.49 -48 -48 -48 s -48 21.49 -48 48 Z\" fill=\"currentColor\"></path> </svg><span style=\"color:white\"><strong>&nbsp;&nbsp;&nbsp;Key Concept</strong></span></td></tr><tr><td>If the client receives any weeks of regular benefits in the initial BP, the BP cannot be extended to pay additional weeks of special benefits. In addition, the client must have received at least 1 week of that special BT in the initial BP to receive that same BT in the extended BP.</td></tr></tbody></table>",
+    "_id": "5f29801a935326061910ea75",
+    "_parentId": "5f29801a935326061910ea4f",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Callout",
+    "displayTitle": "Callout",
+    "body": "<p>Every once in a while you need to draw attention to some extra information that does not fit into a <strong>Take Note</strong> or a <strong>Go To</strong> so you can use a <strong>Callout. </strong></p><p>&nbsp;</p><p>This <strong>Callout</strong> uses the div class=\"component note take-note\".</p>",
+    "_id": "5f29801a935326061910ea76",
+    "_parentId": "5f29801a935326061910ea50",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "inverse-theme",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Callout",
+    "displayTitle": "Callout",
+    "body": "<p>Every once in a while you need to draw attention to some extra information that does not fit into a <strong>Take Note</strong> or a <strong>Go To</strong> so you can use a <strong>Callout. </strong></p><p>You can get this inverse theme by adding<strong> inverse-theme</strong> to classes.</p><p>This <strong>Callout</strong> uses the div class=\"component note take-note\".</p>",
+    "_id": "5f29801a935326061910ea77",
+    "_parentId": "5f29801a935326061910ea50",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Visibility",
+    "displayTitle": "",
+    "body": "<p><strong>Initial Visibility</strong> (_styleBeforeCompletion): Determines whether the Trickle button is visible even while subsequent sections of the page remain inaccessible. Acceptable values are \"hidden\" and \"visible\".</p><p><strong>Final Visibility</strong> (_styleAfterClick): Determines the properties of the Trickle button after it has been clicked. Acceptable values are \"hidden\", \"disabled\", and \"scroll\". \"hidden\" hides the button. \"disabled\" applies the \"disabled\" CSS class. The value \"scroll\" will cause the button to maintain its visibility allowing the user an alternative method for scrolling down the page by using the button (even after all sections have been revealed).</p>",
+    "_id": "5f29801a935326061910ea78",
+    "_parentId": "5f29801a935326061910ea52",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Enable Trickle",
+    "displayTitle": "Enable Trickle",
+    "body": "<p><strong>Enable Trickle</strong> (_isEnabled): Turns on and off the <strong>Trickle</strong> extension. Can be set in <em>articles.json</em> and <em>blocks.json</em> (and in <em>course.json</em> in the Adapt framework) to disable <strong>Trickle</strong> where not required. Also useful during course development.</p>",
+    "_id": "5f29801a935326061910ea79",
+    "_parentId": "5f29801a935326061910ea51",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Control the scroll",
+    "displayTitle": "",
+    "body": "<p>The <strong>Trickle</strong> extension makes it possible to control how the learner scrolls down the page, but what elements of a page can it be applied to?</p>",
+    "_id": "5f29801a935326061910ea7a",
+    "_parentId": "5f29801a935326061910ea53",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Choose an option and select Submit. ",
+    "_items": [
+      {
+        "text": "Other extensions",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Article",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Block",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Component",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "Feedback",
+      "correct": "<p>The Trickle extension is applied to the \"block\" level to control the scroll.</p>",
+      "_incorrect": {
+        "final": "<p>The Trickle extension is applied to the \"block\" level to control the scroll.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "quicknav",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Navigation",
+    "displayTitle": "Navigation",
+    "body": "",
+    "_id": "5f29801a935326061910ea7b",
+    "_parentId": "5f29801a935326061910ea54",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "The navigation bar is a component within the last block. Use the navigation block to introduce the next topic or page. ",
+    "_loopStyle": "none",
+    "_buttons": {
+      "_returnToPreviousLocation": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Return",
+        "ariaLabel": "Return to previous location",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}"
+      },
+      "_previous": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "< Previous",
+        "ariaLabel": "Previous Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_root": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Go to main menu",
+        "ariaLabel": "Go to main menu",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_up": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Back to menu",
+        "ariaLabel": "Back to menu",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_next": {
+        "_isEnabled": true,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Next >",
+        "ariaLabel": "Next Page",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_sibling": {
+        "_isEnabled": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "{{inc index}}",
+        "ariaLabel": "Page {{inc index}}",
+        "_showTooltip": true,
+        "tooltip": "{{displayTitle}}",
+        "_customRouteId": ""
+      },
+      "_close": {
+        "_isEnabled": false,
+        "_lockUntilPageComplete": false,
+        "_order": 0,
+        "_classes": "",
+        "_iconClass": "",
+        "_alignIconRight": false,
+        "text": "Close",
+        "ariaLabel": "Close window",
+        "_showTooltip": false,
+        "tooltip": "Close window"
+      }
+    }
+  },
+  {
+    "_component": "stacklist",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Stack List",
+    "displayTitle": "",
+    "body": "<p>The <strong>Stacklist</strong> component displays list items one at a time when the learner clicks a button. Items fly into view from left and right alternately.</p>",
+    "_id": "5f29801a935326061910ea7c",
+    "_parentId": "5f29801a935326061910ea55",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "body": "<p>This component is useful for making boring text list that little bit more interactive.</p>",
+        "next": ""
+      },
+      {
+        "body": "<p>List items slide from alternating sides.</p>",
+        "next": ""
+      },
+      {
+        "body": "<p>There is no limit to the number of items you can have.</p>",
+        "next": ""
+      },
+      {
+        "body": "<p>Although if you have too many it will be a bit boring.</p>",
+        "next": ""
+      }
+    ],
+    "_button": {
+      "startText": "Click here to begin",
+      "continueText": "Next"
+    }
+  },
+  {
+    "_component": "hotgrid",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Hot Grid",
+    "displayTitle": "",
+    "body": "<p>When a learner selects an image, a pop-up is displayed that consists of text with an image.</p>",
+    "_id": "5f29801a935326061910ea7d",
+    "_parentId": "5f29801a935326061910ea56",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_columns": 5,
+    "_items": [
+      {
+        "title": "Task 1",
+        "body": "<ul><li>Provide the employer with the contact information for the Employer Contact Centre (ECC) to obtain the Utilization Report and Enrolment Sheet.<ul style=\"list-style-type:circle\"><li>Ask the employer to complete the Enrolment Sheet and submit it to the Regional EI Work-Sharing Coordinator via courier (in a sealed envelope) or via the Data Gateway.</li><li>Emphasize the requirement to complete and submit the Utilization Report on a weekly basis via the Data Gateway.</li></ul></li></ul><p>Stay tuned as you’re about to learn about the Enrolment Sheet and Utilization Report shortly!</p>",
+        "_graphic": {
+          "src": "course/en/assets/d703a0b0f23000f922404f0df6a35e24221e1147.png",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Task 2",
+        "body": "<ul><li>Instruct the employer to phone the Employer Contact Centre (ECC) for instructions on registering for the Data Gateway.</li></ul><p>Note: The ECC is also available to answer any questions the employer may have about completing the Utilization Report.</p>",
+        "_graphic": {
+          "src": "course/en/assets/023759ade65341e7bef8bf51733af2ab33518e5e.png",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Task 3",
+        "body": "<ul><li>Advise employer that upon request, a Citizen Service Specialist (CSS) can provide an employee information session at the workplace.</li></ul><ul style=\"list-style-type:circle\"><li>The CSS will provide the Appli-Web Reference Code to the employees.</li><li>The Appli-Web Reference Code identifies their participation in a Work-Sharing agreement.</li></ul>",
+        "_graphic": {
+          "src": "course/en/assets/2b0f79dea8d511992b29b825069ce8830cedb477.png",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Task 4",
+        "body": "<p>If an employee information session is not held, you will obtain the Appli-Web Reference Code from the Regional EI Work-Sharing Coordinator and include it on the Important Notice for Work-Sharing Employees document.</p><ul><li>Provide the document to the employer and employee representative.</li></ul>",
+        "_graphic": {
+          "src": "course/en/assets/a9d0aac8518ccfc3a4373321f5c339dc80eb0f3c.png",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Task 5",
+        "body": "<p>Discuss the scheduling of work for the Work-Sharing unit around statutory holidays.</p>",
+        "_graphic": {
+          "src": "course/en/assets/841bd3f6934a69d94af4c4927e3f3a21daa3ce66.png",
+          "srcHover": "",
+          "srcVisited": "",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ]
+  },
+  {
+    "_component": "imageTextReveal",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Image Text Reveal ",
+    "displayTitle": "",
+    "body": "<p>This component reveals the text information when user clicks on the graphic.</p>",
+    "_id": "5f29801a935326061910ea7e",
+    "_parentId": "5f29801a935326061910ea57",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_graphic": {
+      "large": "course/en/assets/07a05c5fdaf15f459724f2916adbeb3be46d02da.png",
+      "small": "course/en/assets/07a05c5fdaf15f459724f2916adbeb3be46d02da.png",
+      "alt": "",
+      "attribution": ""
+    },
+    "textToReveal": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+    "duration": ""
+  },
+  {
+    "_component": "expose",
+    "_classes": "center-image",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Expose",
+    "displayTitle": "",
+    "body": "<p>The <strong>Expose</strong> component displays panels of content hidden behind front covers. When clicked the cover animates to expose the content below.</p>",
+    "_id": "5f29801a935326061910ea7f",
+    "_parentId": "5f29801a935326061910ea58",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "",
+    "_columns": null,
+    "_animationType": "fade",
+    "_items": [
+      {
+        "front": "?",
+        "back": {
+          "title": "",
+          "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>&nbsp;</p>",
+          "_graphic": {
+            "alt": "",
+            "src": "course/en/assets/967f99a2a93c13c9bd1fafc9e0353f8b0bd61a0f.png"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_component": "hotgraphic",
+    "_classes": "center-image",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "",
+    "body": "<p style=\"margin-left:0px; margin-right:0px; text-align:left\">How can we describe each one of these three factors?</p><p style=\"margin-left:0px; margin-right:0px; text-align:left\">Let's find out!</p>",
+    "_id": "5f29801a935326061910ea80",
+    "_parentId": "5f29801a935326061910ea59",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "In order to be able to continue, you must expand each section by activating the pin icon. ",
+    "_setCompletionOn": "allItems",
+    "_graphic": {
+      "src": "course/en/assets/72a240a67c7604b8c759f3604801de4954afdd1c.png",
+      "alt": "",
+      "attribution": ""
+    },
+    "mobileBody": "",
+    "mobileInstruction": "",
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_useGraphicsAsPins": false,
+    "_items": [
+      {
+        "title": "PRESSURE",
+        "_ariaLevel": 0,
+        "body": "<div class=\"hotgraphic-item-content\" style=\"background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; border-bottom-color: rgb(55, 71, 79); border-bottom-style: none; border-bottom-width: 0px; border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; border-left-color: rgb(55, 71, 79); border-left-style: none; border-left-width: 0px; border-right-color: rgb(55, 71, 79); border-right-style: none; border-right-width: 0px; border-top-color: rgb(55, 71, 79); border-top-style: none; border-top-width: 0px; color: rgb(55, 71, 79); float: left; font-family: &amp;quot;open sans&amp;quot;,helvetica,arial,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; orphans: 2; outline-color: invert; outline-style: none; outline-width: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; vertical-align: baseline; -webkit-text-stroke-width: 0px; white-space: normal; width: 417px; word-spacing: 0px;\"><div class=\"hotgraphic-item-content-inner\" style=\"background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; border-bottom-color: rgb(55, 71, 79); border-bottom-style: none; border-bottom-width: 0px; border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; border-left-color: rgb(55, 71, 79); border-left-style: none; border-left-width: 0px; border-right-color: rgb(55, 71, 79); border-right-style: none; border-right-width: 0px; border-top-color: rgb(55, 71, 79); border-top-style: none; border-top-width: 0px; font-size: 14px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; outline-color: invert; outline-style: none; outline-width: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; vertical-align: baseline;\"><div class=\"hotgraphic-content-body\" style=\"background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; border-bottom-color: rgb(55, 71, 79); border-bottom-style: none; border-bottom-width: 0px; border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; border-left-color: rgb(55, 71, 79); border-left-style: none; border-left-width: 0px; border-right-color: rgb(55, 71, 79); border-right-style: none; border-right-width: 0px; border-top-color: rgb(55, 71, 79); border-top-style: none; border-top-width: 0px; font-size: 14px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; outline-color: invert; outline-style: none; outline-width: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; vertical-align: baseline;\"><ul style=\"list-style-type:disc; margin-left:0px; margin-right:0px\"><li>Expensive tastes,</li><li>Addiction problems,</li><li>Living beyond ones means,</li><li>High personal debt or credit,</li><li>Substantial financial losses,</li><li>Undue pressure to succeed,</li><li>Greed,</li><li>A feeling of entitlement.</li></ul></div></div></div><div class=\"hotgraphic-item-graphic\" style=\"background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; border-bottom-color: rgb(55, 71, 79); border-bottom-style: none; border-bottom-width: 0px; border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; border-left-color: rgb(55, 71, 79); border-left-style: none; border-left-width: 0px; border-right-color: rgb(55, 71, 79); border-right-style: none; border-right-width: 0px; border-top-color: rgb(55, 71, 79); border-top-style: none; border-top-width: 0px; box-sizing: border-box; color: rgb(55, 71, 79); float: right; font-family: &amp;quot;open sans&amp;quot;,helvetica,arial,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; orphans: 2; outline-color: invert; outline-style: none; outline-width: 0px; padding-bottom: 0px; padding-left: 20px; padding-right: 0px; padding-top: 0px; text-align: center; text-decoration: none; text-indent: 0px; text-transform: none; vertical-align: baseline; -webkit-text-stroke-width: 0px; white-space: normal; width: 417px; word-spacing: 0px;\"><div class=\"hotgraphic-item-graphic-inner\" style=\"background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; border-bottom-color: rgb(55, 71, 79); border-bottom-style: none; border-bottom-width: 0px; border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; border-left-color: rgb(55, 71, 79); border-left-style: none; border-left-width: 0px; border-right-color: rgb(55, 71, 79); border-right-style: none; border-right-width: 0px; border-top-color: rgb(55, 71, 79); border-top-style: none; border-top-width: 0px; font-size: 14px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; outline-color: invert; outline-style: none; outline-width: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; vertical-align: baseline;\">&nbsp;</div></div>",
+        "strapline": "Pressure",
+        "_graphic": {
+          "src": "course/en/assets/4de1177369437da4c34bfc6780dc6fe91e30ff5b.png",
+          "alt": "",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 40,
+        "_top": 15
+      },
+      {
+        "title": "OPPORTUNITY",
+        "_ariaLevel": 0,
+        "body": "<ul style=\"list-style-type:disc; margin-left:0px; margin-right:0px\"><li>Using one’s position and authority as a means for engaging in fraudulent activity,</li><li>Capitalizing on lack of monitoring/oversight,</li><li>Using one’s ability to deceive using minimal effort.</li></ul>",
+        "strapline": "Opportunity",
+        "_graphic": {
+          "src": "course/en/assets/5e2cdabc6928203a09fbc2e4f941cd32de41c5ac.png",
+          "alt": "",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 55,
+        "_top": 15
+      },
+      {
+        "title": "RATIONALIZATION ",
+        "_ariaLevel": 0,
+        "body": "<ul style=\"list-style-type:disc; margin-left:0px; margin-right:0px\"><li>“I do not care”,</li><li>\"I am just borrowing the money”,</li><li>“Everybody does it”,</li><li>“I am not hurting anyone”,</li><li>“It is for a good cause”,</li><li>“It is not really a serious matter”,</li><li>“The organization can afford it”,</li><li>“I deserve it”.</li></ul>",
+        "strapline": "Rastionalization",
+        "_graphic": {
+          "src": "course/en/assets/395b624d8a278b4fb2dbe3c5e709ef9d48b258e9.png",
+          "alt": "",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 47,
+        "_top": 61
+      }
+    ]
+  },
+  {
+    "_component": "matching",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Component title",
+    "displayTitle": "Component title",
+    "body": "<p>The firms&nbsp;in the case studies...&nbsp;</p>",
+    "_id": "5f29801a935326061910ea81",
+    "_parentId": "5f29801a935326061910ea5a",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "instruction": "Match the consequences...",
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldResetAllAnswers": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_questionWeight": 1,
+    "_recordInteraction": true,
+    "placeholder": "Please select an option",
+    "_items": [
+      {
+        "text": "When recruitment companies...",
+        "_options": [
+          {
+            "text": "1",
+            "_isCorrect": false
+          },
+          {
+            "text": "2",
+            "_isCorrect": false
+          },
+          {
+            "text": "3",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "When construction companies...",
+        "_options": [
+          {
+            "text": "1",
+            "_isCorrect": false
+          },
+          {
+            "text": "2",
+            "_isCorrect": false
+          },
+          {
+            "text": "3",
+            "_isCorrect": false
+          }
+        ]
+      }
+    ],
+    "_feedback": {
+      "title": "",
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  }
+]

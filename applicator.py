@@ -3,11 +3,13 @@ import os
 from zipfile import ZipFile, ZipInfo
 from io import BytesIO
 import json
+import xml.dom.minidom as md
+
 
 valuesToRemove = ['adapt-contrib-languagePicker', 'adapt-pagesInNavBar', 'adapt-close', 'adapt-devtools']
 keysToRemove = ['_close', '_pagesInNavBar','_languagePicker']
 dirName = os.getcwd()
-print(dirName)
+
 def getListOfFiles(dirName):
     # create a list of file and sub directories
     # names in the given directory
@@ -34,11 +36,12 @@ def updateConfigJson(config, language):
             try:
                 data['build']['includes'].remove(value)
             except ValueError as e:
-                #print(e)
+                print(e)
                 break
     ####################################################################################
     ###################### Patch the config.json file ##################################
     ####################################################################################
+    
     data['_defaultLanguage'] = language
     data['_accessibility']['_isEnabled'] = True
     data['_accessibility']['_isTextProcessorEnabled'] = True
@@ -48,6 +51,17 @@ def updateConfigJson(config, language):
     data['_homeButton']['_isEnabled'] = True
     data['_completionCriteria']['_requireContentCompleted'] = True
     data['_completionCriteria']['_requireAssessmentCompleted'] = False
+    '''
+    #debug information
+    data['_accessibility']['_isEnabled'] = False
+    data['_accessibility']['_isTextProcessorEnabled'] = False
+    data['_accessibility']['_isSkipNavigationEnabled'] = False
+    data['_scrollingContainer']['_isEnabled'] = False
+    data['_spoor']['_reporting']['_onAssessmentFailure'] = 'completed'
+    data['_homeButton']['_isEnabled'] = False
+    data['_completionCriteria']['_requireContentCompleted'] = False
+    data['_completionCriteria']['_requireAssessmentCompleted'] = False
+    '''
     #print(json.dumps(data['_defaultLanguage'], indent=4, sort_keys=True))
     return json.dumps(data)
     #print(json.dumps(data['build']['includes'], indent=4, sort_keys=True))
@@ -71,6 +85,7 @@ def updateCourseJson(course):
     ####################################################################################
     ###################### Patch the course.json file ##################################
     ####################################################################################
+    
     data['_pageLevelProgress']['_isEnabled'] = True
     data['_pageLevelProgress']['_showPageCompletion'] = True
     data['_pageLevelProgress']['_isCompletionIndicatorEnabled'] = False
@@ -82,15 +97,38 @@ def updateCourseJson(course):
     data['_pageIncompletePrompt']['_isEnabled'] = True
     data['_homeButton']['_isEnabled'] = True
     
+    '''
+    #debug information
+    data['_pageLevelProgress']['_isEnabled'] = False
+    data['_pageLevelProgress']['_showPageCompletion'] = False
+    data['_pageLevelProgress']['_isCompletionIndicatorEnabled'] = False
+    data['_pageLevelProgress']['_isShownInNavigationBar'] = False
+    data['_resources']['_isEnabled'] = False
+    data['_glossary']['_isEnabled'] = False
+    data['_bookmarking']['_isEnabled'] = False
+    data['_bookmarking']['_showPrompt'] = False
+    data['_pageIncompletePrompt']['_isEnabled'] = False
+    data['_homeButton']['_isEnabled'] = False
+    '''
     print('*******************************************')
     #print(json.dumps(data['title'], indent=2, sort_keys=True))
 
     return json.dumps(data)
+def updateimsXML(file):
+    dom = md.parseString(file)
 
- ######################## Update the zip file ###################################
+    dom.getElementsByTagName("resource")[0].setAttribute("href","launch.html")
+    dom.getElementsByTagName("file")[0].setAttribute("href","launch.html")
+    #print(dom.getElementsByTagName("resource")[0].getAttribute("href"))
+    #print(dom.getElementsByTagName("file")[0].getAttribute("href"))
+    #print(dom.toxml())
+    return dom.toprettyxml()
+    
+######################## Update the zip file ###################################
 def update_or_insert(path):
     configJSON = None
     courseJSON = None
+    imsXML = None
     courseLan = None
     """
     Param: path -> file in archive
@@ -117,25 +155,35 @@ def update_or_insert(path):
                     configJSON = updateConfigJson(zip_archive.read(file),courseLan)
                     zip_inf = ZipInfo(file.filename)
                     new_archive.writestr(zip_inf, configJSON)
+                elif file.filename == 'imsmanifest.xml':
+                    imsXML = updateimsXML(zip_archive.read(file))
+                    zip_inf = ZipInfo(file.filename)
+                    new_archive.writestr(zip_inf, imsXML)
                 else:
                     # Copy other contents as it is
                     new_archive.writestr(file, zip_archive.read(file.filename))  
 
     return new_zip
+
 def main():
     numOfZip = 0
     # Get the list of all files in directory tree at given path
     listOfFiles = getListOfFiles(dirName)
+    #launchFile = None
+    # with open('launch.html', 'r') as launchFile:
+        #print(launchFile)
     # Print the files
     for elem in listOfFiles:
         kind = filetype.guess(elem)
         if not (kind is None):
             if kind.mime == 'application/zip' and kind.extension == 'zip':
+                '''
                 # DEBUG: check to see what ZIP files are found
                 # print(elem)
                 # print(kind.extension)
                 # print(kind.mime)
                 # Debug: Number of Zip Files found
+                '''
                 numOfZip += 1
                 print('Found %s Zip Files' % numOfZip)
                 ############################################
@@ -143,6 +191,7 @@ def main():
                 new_zip = update_or_insert(elem)
                 print(elem)
                 #Generate new Zips#
+                '''
                 try:
                     #for mac 
                     with open('Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
@@ -152,7 +201,7 @@ def main():
                         new_zip.close()
                 except OSError as e:
                     print(e)
+                '''
                 
-
 if __name__ == '__main__':
     main()
