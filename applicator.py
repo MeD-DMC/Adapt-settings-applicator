@@ -130,6 +130,9 @@ def update_or_insert(path):
     courseJSON = None
     imsXML = None
     courseLan = None
+    launchFile = None
+
+    
     """
     Param: path -> file in archive
     Param: data -> data to be updated
@@ -141,10 +144,14 @@ def update_or_insert(path):
 
     with ZipFile(path, 'r') as zip_archive:
         with ZipFile(new_zip, 'w') as new_archive:
+            ### add HTMl file into the ZIP ###
+            new_archive.write('launch.html')
+            ### determine the language of the course package ###
             if path[-6:] == 'fr.zip':
                 courseLan = 'fr'
             else:
                 courseLan = 'en'
+            ### Patch the json and xml files ###
             for file in zip_archive.filelist:
                 # If you spot an existing file, create a new object
                 if file.filename == 'course/en/course.json':
@@ -169,10 +176,7 @@ def main():
     numOfZip = 0
     # Get the list of all files in directory tree at given path
     listOfFiles = getListOfFiles(dirName)
-    #launchFile = None
-    # with open('launch.html', 'r') as launchFile:
-        #print(launchFile)
-    # Print the files
+
     for elem in listOfFiles:
         kind = filetype.guess(elem)
         if not (kind is None):

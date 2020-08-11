@@ -1,4 +1,5 @@
 applicator-instruction.txt
+Patch_Map.txt
 # Compiled python modules.
 *.pyc
 
