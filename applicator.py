@@ -164,7 +164,7 @@ def update_or_insert(path):
                     new_archive.writestr(file, zip_archive.read(file.filename))  
 
     return new_zip
-
+######################## Main Logic ###################################
 def main():
     numOfZip = 0
     # Get the list of all files in directory tree at given path
@@ -191,7 +191,7 @@ def main():
                 new_zip = update_or_insert(elem)
                 print(elem)
                 #Generate new Zips#
-                '''
+                
                 try:
                     #for mac 
                     with open('Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
@@ -201,7 +201,7 @@ def main():
                         new_zip.close()
                 except OSError as e:
                     print(e)
-                '''
+                
                 
 if __name__ == '__main__':
     main()
