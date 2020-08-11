@@ -171,7 +171,7 @@ def update_or_insert(path):
                     new_archive.writestr(file, zip_archive.read(file.filename))  
 
     return new_zip
-######################## Main Logic ###################################
+######################## Main Logic (please switch to the correct OS in this block) ###################################
 def main():
     numOfZip = 0
     # Get the list of all files in directory tree at given path
