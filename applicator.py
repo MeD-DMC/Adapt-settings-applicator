@@ -192,19 +192,20 @@ def main():
                 print('Found %s Zip Files' % numOfZip)
                 ############################################
                 # Patching the zip files #
-                new_zip = update_or_insert(elem)
-                print(elem)
+                if elem[-16:] != 'base_library.zip':
+                    new_zip = update_or_insert(elem)
+                    print(elem)
                 #Generate new Zips#
                 
-                try:
-                    #for mac 
-                    with open('Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
-                    #for windows
-                    #with open('Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
-                        f.write(new_zip.getbuffer())
-                        new_zip.close()
-                except OSError as e:
-                    print(e)
+                    try:
+                        #for mac 
+                        with open('Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
+                        #for windows
+                        #with open('Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
+                            f.write(new_zip.getbuffer())
+                            new_zip.close()
+                    except OSError as e:
+                        print(e)
                 
                 
 if __name__ == '__main__':

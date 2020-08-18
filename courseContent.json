@@ -1,0 +1,181 @@
+{
+	"courseJson": {
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Soumettre",
+				"ariaLabel": "Soumettre"
+			},
+			"_reset": {
+				"buttonText": "Réinitialiser",
+				"ariaLabel": "Réinitialiser"
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Bonne réponse",
+				"ariaLabel": "Voir la bonne réponse"
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Ma réponse",
+				"ariaLabel": "Cacher la bonne réponse"
+			},
+			"_showFeedback": {
+				"buttonText": "Voir la rétroaction",
+				"ariaLabel": "Voir la rétroaction"
+			},
+			"remainingAttemptsText": "Essais restants",
+			"remainingAttemptText": "Dernier essai",
+			"disabledAriaLabel": "Ce bouton est désactivé pour l'instant"
+		}, 
+		
+		"_globals": {
+			"_accessibility": {
+				"skipNavigationText": "Saut de navigation",
+				"_ariaLabels": {
+					"answeredIncorrectly": "Votre réponse est erronnée",
+					"answeredCorrectly": "Votre réponse est correcte",
+					"selectedAnswer": "Votre réponse",
+					"unselectedAnswer": "Réponse non choisie",
+					"skipNavigation": "Saut de navigation",
+					"previous": "Précédent",
+					"navigationDrawer": "Consulter les ressources",
+					"close": "Fermer",
+					"closeDrawer": "Fermer le tiroir",
+					"closeResources": "Fermer les ressources",
+					"drawer": "Haut du tiroir latéral",
+					"closePopup": "Fermer la fenêtre contextuelle",
+					"next": "Suivant",
+					"done": "Complété",
+					"complete": "Complet",
+					"incomplete": "Incomplet",
+					"incorrect": "Incorrect",
+					"correct": "Correct",
+					"locked": "Vérouillé",
+					"visited": "Consulté"
+				}
+			},
+			"_components": {
+				"_text": {
+					"ariaRegion": ""
+				},
+				"_narrative": {
+					"ariaRegion": "Diaporama. Sélectionnez le bouton \"Suivant\" pour poursuivre. "
+				},
+				"_media": {
+					"ariaRegion": "Lecteur multimédia{{#any _transcript._inlineTranscript _transcript._externalTranscript}} et transcription{{/any}}. ",
+					"skipToTranscript": "Passez à la transcription"
+				},
+				"_hotgraphic": {
+					"ariaRegion": "Image avec zones sélectionnables. Sélectionnez chaque bouton pour afficher plus d'informations.",
+					"popupPagination": "{{itemNumber}} / {{totalItems}}"
+				},
+				"_accordion": {
+					"ariaRegion": "Accordéon. Sélectionnez chaque bouton pour agrandir la zone réservée au contenu."
+				},
+				"_graphic": {
+					"ariaRegion": ""
+				},
+				"_matching": {
+					"ariaRegion": "Appariement. Veuillez faire une sélection à partir des listes puis soumettez."
+				},
+				"_textinput": {
+					"ariaRegion": "Saisie de texte. Saisissez votre réponse puis soumettez."
+				},
+				"_mcq": {
+					"ariaRegion": "Question à choix multiple. Veuillez sélectionner une option et la soumettre."
+				},
+				"_gmcq": {
+					"ariaRegion": "Question à choix multiple. Veuillez sélectionner une option et la soumettre."
+				},
+				"_assessmentResults": {
+					"ariaRegion": "Résultats de l'évaluation."
+				},
+				"_slider": {
+					"ariaRegion": "Curseur. Répondez à la question en sélectionnant une valeur sur l'échelle, puis soumettez.",
+					"labelStart": "Début de l'échelle",
+					"labelEnd": "Fin de l'échelle"
+				},
+				"_textinputinline": {
+					"ariaRegion": "Pour cette question vous devez saisir votre réponse dans la boîte de texte fournie. Lorsque vous aurez terminé la saisie, sélectionnez le bouton soumettre."
+				},
+				"_imageSlider": {
+					"ariaRegion": ""
+				},
+				"_expose": {
+					"ariaRegion": ""
+				},
+				"_timedMcq": {
+					"ariaRegion": "Cette composante est une question à choix multiple. Vous devez choisir la bonne réponse à l'intérieur de la période de temps allouée."
+				},
+				"_chat": {
+					"ariaRegion": ""
+				},
+				"_imageTextReveal": {
+					"ariaRegion": ""
+				},
+				"_hotgrid": {
+					"ariaRegion": "Composante avec images sélectionnables. Sélectionnez chaque élément pour afficher le contenu.",
+					"popupPagination": "{{itemNumber}} / {{totalItems}}"
+				},
+				"_stacklist": {
+					"ariaRegion": "Cette composante de la liste empilable présente une liste d'éléments. Sélectionnez le bouton pour accéder à chaque élément à tour de rôle.",
+					"ariaButtonLabel": "Sélectionnez ce bouton pour accéder à l'élément suivant de la liste empilable."
+				},
+				"_vimeo": {
+					"ariaRegion": "This is a media component which displays a Vimeo video. Select the play / pause button to watch it.",
+					"skipToTranscript ": "Skip to transcript"
+				}
+			},
+			"_extensions": {
+				"_trickle": {
+					"incompleteContent": "Le contenu ci-dessus est incomplet. Vous devez le compléter avant de pouvoir poursuivre."
+				},
+				"_pageLevelProgress": {
+					"pageLevelProgress": "Page sections",
+					"pageLevelProgressIndicatorBar": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
+					"pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+					"pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+					"optionalContent": "Optional content"
+				},
+				"_resources": {
+					"resources": "Additional resources."
+				}
+			}
+		},
+		
+		"_resources": {
+			"title": "Resources",
+			"description": "Consulter les ressources pour ce cours",
+			"_filterButtons": {
+				"all": "Tout",
+				"document": "Documents",
+				"media": "Média",
+				"link": "Liens"
+			},
+			"_filterAria": {
+				"allAria": "Afficher toutes les ressources",
+				"documentAria": "Voir les ressources documentaires",
+				"mediaAria": "Voir les ressources médias",
+				"linkAria": "Voir les liens de ressources"
+			}
+		},
+		"_bookmarking":{
+			"title": "Signet",
+			"body": " Souhaitez-vous continuer là où vous vous étiez arrêté?",
+			"_buttons": {
+				"yes": "Oui",
+				"no": "Non"
+			}
+		},
+		"_pageIncompletePrompt": {
+			"title": "Page incomplète",
+			"message": "Êtes-vous certain de vouloir quitter?",
+			"_buttons": {
+				"yes": "Oui",
+				"no": "Non"
+			}
+		},
+		"_homeButton": {
+			"alt": "Home"
+        }
+    
+    }
+}
