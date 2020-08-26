@@ -145,7 +145,10 @@ def update_or_insert(path):
     with ZipFile(path, 'r') as zip_archive:
         with ZipFile(new_zip, 'w') as new_archive:
             ### add HTMl file into the ZIP ###
-            new_archive.write('/Users/allanyong/jsonPatcher/launch.html')
+            ### For Mac
+            #new_archive.write('/Users/{your machine name}}/jsonPatcher/launch.html')
+            ### For Windows
+            new_archive.write('launch.html')
             ### determine the language of the course package ###
             if path[-6:] == 'fr.zip' or path[-6:] == 'FR.zip':
                 courseLan = 'fr'
