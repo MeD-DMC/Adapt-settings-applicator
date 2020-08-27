@@ -1,5 +1,4 @@
 {
-	"courseJson": {
 		"_buttons": {
 			"_submit": {
 				"buttonText": "Soumettre",
@@ -178,4 +177,3 @@
         }
     
     }
-}

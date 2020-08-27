@@ -30,11 +30,15 @@ def getListOfFiles(dirName):
     return allFiles
 def updateFRlabel(contentData,destJson):
     #print(json.dumps(destJson,indent=2,ensure_ascii=False))
-    for (key, value) in contentData.items():
-        if type(value) == type(dict()):
-            destJson.update(value)
-            updateFRlabel(value,destJson)
-    #print(json.dumps(destJson,indent=2,ensure_ascii=False))
+    #print(json.dumps(contentData,indent=2,ensure_ascii=False))
+    # for (key, value) in contentData.items():
+    #     print(key)
+    #     if type(value) == type(dict()):
+    #         destJson.update(value)
+    #         #print(value)
+    #         updateFRlabel(value,destJson)
+    destJson = {key : contentData.get(key,val) for key, val in destJson.items()}
+    print(json.dumps(destJson,indent=2,ensure_ascii=False))
     return destJson
 def updateFRCourseJson(course):
 
