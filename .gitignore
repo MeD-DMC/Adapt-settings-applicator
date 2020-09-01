@@ -9,3 +9,4 @@ Patch_Map.txt
 # Python egg metadata, regenerated from source files by setuptools.
 /*.egg-info
 /*.egg
+*.zip

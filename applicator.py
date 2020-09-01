@@ -200,9 +200,9 @@ def main():
                 
                 try:
                     #for mac 
-                    with open('patched/Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
+                    #with open('patched/Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
                     #for windows
-                    #with open('patched'+'\\'+'Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
+                    with open('patched'+'\\'+'Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
                         f.write(new_zip.getbuffer())
                         new_zip.close()
                 except OSError as e:
