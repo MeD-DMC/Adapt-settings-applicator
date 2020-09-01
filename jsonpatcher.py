@@ -29,16 +29,17 @@ def getListOfFiles(dirName):
 
     return allFiles
 def updateFRlabel(contentData,destJson):
+    for (key, value) in contentData.items():
+        try:
+            if key == destJson[key]:
+                destJson[key] = value
+                #print(key)
+        except KeyError as e:
+            print(e)
+        if type(value) == type(dict()):
+            updateFRlabel(value,destJson)
+            
     #print(json.dumps(destJson,indent=2,ensure_ascii=False))
-    #print(json.dumps(contentData,indent=2,ensure_ascii=False))
-    # for (key, value) in contentData.items():
-    #     print(key)
-    #     if type(value) == type(dict()):
-    #         destJson.update(value)
-    #         #print(value)
-    #         updateFRlabel(value,destJson)
-    destJson = {key : contentData.get(key,val) for key, val in destJson.items()}
-    print(json.dumps(destJson,indent=2,ensure_ascii=False))
     return destJson
 def updateFRCourseJson(course):
 
@@ -63,7 +64,6 @@ def updateCourseJson(course):
             except KeyError as e:
                 print(e)
                 break
-
     ###################### Patch the course.json file ##################################
     
     data['_pageLevelProgress']['_isEnabled'] = True
@@ -140,8 +140,6 @@ def isdir(z, name):
 def update_or_insert(path):
     configJSON = None
     courseJSON = None
-    frenchLabel = None
-    contentData = None
     imsXML = None
     courseLan = None
     new_zip = BytesIO()
@@ -203,10 +201,10 @@ def main():
                 new_zip = update_or_insert(elem)
                 #Generate new Zips#
                 try:
-                    #for mac 
-                    with open('patched/Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
-                    #for windows
-                    #with open('patched'+'\\'+'Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
+                #     #for mac 
+                #    with open('patched/Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
+                #     #for windows
+                    with open('patched'+'\\'+'Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
                         f.write(new_zip.getbuffer())
                         new_zip.close()
                 except OSError as e:
