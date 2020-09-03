@@ -5,6 +5,7 @@ from io import BytesIO
 import codecs
 import json
 import xml.dom.minidom as md
+import sys
 
 
 dirName = os.getcwd()
@@ -33,21 +34,21 @@ def updateFRlabel(contentData,destJson):
         try:
             if key == destJson[key]:
                 destJson[key] = value
-                #print(key)
         except KeyError as e:
-            print(e)
+            # print('the missing keys exception, ignored')
+            # print(e)
+            pass
         if type(value) == type(dict()):
             updateFRlabel(value,destJson)
-            
     #print(json.dumps(destJson,indent=2,ensure_ascii=False))
+
     return destJson
 def updateFRCourseJson(course):
-
     with open('courseContent.json',encoding='utf8') as f:
         contentData = json.load(f)
     #print(json.dumps(json.loads(course),separators=(',', ': '),indent=2))
     data = updateFRlabel(contentData,json.loads(course))
-    
+    print('End of updateFRCourseJson Function, returning the json object...')
     return json.dumps(data,indent=2,separators=(',', ': '),ensure_ascii=False)
 def updateCourseJson(course):
 
@@ -122,12 +123,12 @@ def updateConfigJson(config, language):
     data['_completionCriteria']['_requireAssessmentCompleted'] = False
     '''
     #print(json.dumps(data['_defaultLanguage'], indent=4, sort_keys=True))
+    print('End of updateConfigJson Function, returning the json object...')
     return json.dumps(data,indent=2,separators=(',', ': '),ensure_ascii=False)
     #print(json.dumps(data['build']['includes'], indent=4, sort_keys=True))
     #################################################################################    
 def updateimsXML(file):
     dom = md.parseString(file)
-
     dom.getElementsByTagName("resource")[0].setAttribute("href","launch.html")
     dom.getElementsByTagName("file")[0].setAttribute("href","launch.html")
     #print(dom.getElementsByTagName("resource")[0].getAttribute("href"))
@@ -143,13 +144,13 @@ def update_or_insert(path):
     imsXML = None
     courseLan = None
     new_zip = BytesIO()
-
-
     with ZipFile(path, 'r') as zip_archive:
         with ZipFile(new_zip, 'w') as new_archive:
             ### add HTMl file into the ZIP ###
             ### For Mac
             #new_archive.write('/Users/{your machine name}}/jsonPatcher/launch.html')
+            #new_archive.write('/Users/allanyong/jsonPatcher/launch.html')
+
             ### For Windows
             new_archive.write('launch.html')
             ### determine the language of the course package ###
@@ -166,8 +167,9 @@ def update_or_insert(path):
                     if file.filename == 'course/'+courseLan+'/course.json':
                         print("I found a file: " + file.filename)
                         courseJSON = updateCourseJson(zip_archive.read(file))
-                        if courseLan == 'fr':
+                        if courseLan == 'fr' and len(sys.argv) == 2:
                             courseJSON = updateFRCourseJson(courseJSON)
+                            print('came here======================================')
                         zip_inf = ZipInfo(file.filename)
                         new_archive.writestr(zip_inf, courseJSON)   
                     elif file.filename == 'course/config.json':
@@ -195,16 +197,17 @@ def main():
             if kind.mime == 'application/zip' and kind.extension == 'zip':
                 numOfZip += 1
                 print('Found %s Zip Files' % numOfZip)
-                print(elem)
+                #print(elem)
                 ############################################
                 # Patching the zip files #
                 new_zip = update_or_insert(elem)
+                print(sys.argv)
                 #Generate new Zips#
                 try:
                 #     #for mac 
                 #    with open('patched/Patched - ' + elem.replace(dirName+'/',''), 'wb') as f:
                 #     #for windows
-                    with open('patched'+'\\'+'Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
+                with open('patched'+'\\'+'Patched - ' + elem.replace(dirName+'\\',''), 'wb') as f:
                         f.write(new_zip.getbuffer())
                         new_zip.close()
                 except OSError as e:
